@@ -25,7 +25,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'New Signup Page',
 	'author' => 'Jack Phoenix',
 	'version' => '0.4.1',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:NewSignupPage',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:NewSignupPage',
 	'description' => 'Adds new features to [[Special:UserLogin/signup|signup form]]',
 );
 
