@@ -91,7 +91,7 @@ $messages['nl'] = array(
 );
 
 /** Norwegian (Norsk) */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'shoutwiki-loginform-tos' => 'Jeg er over 13 år og jeg har lest, forstått og aksepterer å være bundet av <a href="http://www.shoutwiki.com/wiki/Terms_of_use">vilkår for bruk</a> og <a href="http://www.shoutwiki.com/wiki/Privacy_policy">personvernerklæring</a>',
 	'shoutwiki-must-accept-tos' => 'Du må godta nettstedets Vilkår for bruk for å kunne opprette en konto!',
 );
