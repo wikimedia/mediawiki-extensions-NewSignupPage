@@ -180,8 +180,9 @@ function fnRegisterTrack( $user ) {
 				// Nees to be forContent because addMessage adds this into a
 				// database table - we don't want to display Japanese text
 				// to English users
-				$message = wfMsgForContent(
+				$message = wfMsgExt(
 					'login-reg-recruited',
+					array( 'parseinline' ),
 					$user_registering_title->getFullURL(),
 					$user->getName()
 				);

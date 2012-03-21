@@ -11,7 +11,7 @@ $messages = array();
 /** English */
 $messages['en'] = array(
 	// Social tools
-	'login-reg-recruited' => 'recruited <a href="$1">$2</a>',
+	'login-reg-recruited' => 'recruited [$1 $2]',
 	// Text displayed next to the checkbox
 	'shoutwiki-loginform-tos' => 'I am over 13 years of age and I have read, understood and agree to be bound by the <a href="http://www.shoutwiki.com/wiki/Terms_of_use">Terms of Service</a> and <a href="http://www.shoutwiki.com/wiki/Privacy_policy">Privacy Policy</a>',
 	// Error message if the user doesn't accept the site's Terms of Service
@@ -52,7 +52,7 @@ $messages['es'] = array(
 
 /** Finnish (Suomi) */
 $messages['fi'] = array(
-	'login-reg-recruited' => 'värväsi käyttäjän <a href="$1">$2</a>',
+	'login-reg-recruited' => 'värväsi käyttäjän [$1 $2]',
 	'shoutwiki-loginform-tos' => 'Olen yli 13-vuotias ja olen lukenut, ymmärtänyt ja sitoutunut noudattamaan <a href="http://www.shoutwiki.com/wiki/Terms_of_use">käyttöehtoja</a> ja <a href="http://www.shoutwiki.com/wiki/Privacy_policy">tietosuojakäytäntöä</a>',
 	'shoutwiki-must-accept-tos' => 'Sinun tulee hyväksyä sivuston käyttöehdot voidaksesi luoda tunnuksen!',
 	'right-bypasstoscheck' => 'Luoda uusia tunnuksia hyväksymättä sivuston käyttöehtoja',
@@ -84,7 +84,7 @@ $messages['ko'] = array(
  * @author Mitchel Corstjens
  */
 $messages['nl'] = array(
-	'login-reg-recruited' => 'rekruteerde <a href="$1">$2</a>',
+	'login-reg-recruited' => 'rekruteerde [$1 $2]',
 	'shoutwiki-loginform-tos' => 'Ik ben ouder dan 13 jaar en heb de <a href="http://www.shoutwiki.com/wiki/Terms_of_use">gebruiks overeenkomst</a> en de <a href="http://www.shoutwiki.com/wiki/Privacy_policy">Privacy Policy</a> gelezen en ga hier mee akkoord',
 	'shoutwiki-must-accept-tos' => 'Je moet akkoord gaan met de gebruiks overeenkomst van de site om een account aan te kunnen maken!',
 	'right-bypasstoscheck' => "Creëer een nieuwe account zonder akkoord te gaan met de gebruiks overeenkomst",
