@@ -20,6 +20,14 @@ $messages['en'] = array(
 	'right-bypasstoscheck' => "Create new accounts without accepting the site's Terms of Service",
 );
 
+/** Message documentation */
+$messages['qqq'] = array(
+	'login-reg-recruited' => "$1 is a URL to the recruited user's user page; $2 is the recruited user's username. This message is displayed on Special:UserActivity and on the output of &lt;siteactivity&gt; tag on wikis where the [[mw:Extension:SocialProfile|SocialProfile extension]] is installed and site administrators have chosen to give out points for recruiting new users; not used on normal wikis",
+	'shoutwiki-loginform-tos' => 'The text for the new checkbox which is displayed in Special:UserLogin/signup, right below the "Remember my login on this computer" checkbox',
+	'shoutwiki-must-accept-tos' => "Error message displayed to the user in Special:UserLogin/signup in a fancy red <code>&lt;div&gt;</code> if they don't check the \"I accept the Terms of Service\" checkbox",
+	'right-bypasstoscheck' => 'Shown on Special:ListGroupRights',
+);
+
 /** Czech (Česky) */
 $messages['cz'] = array(
 	'shoutwiki-loginform-tos' => 'Já jsem přes 13 let a jsem si přečetl, pochopil a souhlasíte, že budete vázáni <a href="http://www.shoutwiki.com/wiki/Terms_of_use">podmínkami služby</a> a <a href="http://www.shoutwiki.com/wiki/Privacy_policy">ochrany soukromí</a>',
