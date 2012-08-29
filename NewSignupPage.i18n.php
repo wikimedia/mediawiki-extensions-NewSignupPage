@@ -11,7 +11,7 @@ $messages = array();
 /** English */
 $messages['en'] = array(
 	// Social tools
-	'login-reg-recruited' => 'recruited [$1 $2]',
+	'newsignuppage-recruited' => 'recruited [$1 $2]',
 	// Text displayed next to the checkbox
 	'shoutwiki-loginform-tos' => 'I am over 13 years of age and I have read, understood and agree to be bound by the <a href="http://www.shoutwiki.com/wiki/Terms_of_use">Terms of Service</a> and <a href="http://www.shoutwiki.com/wiki/Privacy_policy">Privacy Policy</a>',
 	// Error message if the user doesn't accept the site's Terms of Service
@@ -22,7 +22,7 @@ $messages['en'] = array(
 
 /** Message documentation */
 $messages['qqq'] = array(
-	'login-reg-recruited' => "$1 is a URL to the recruited user's user page; $2 is the recruited user's username. This message is displayed on Special:UserActivity and on the output of &lt;siteactivity&gt; tag on wikis where the [[mw:Extension:SocialProfile|SocialProfile extension]] is installed and site administrators have chosen to give out points for recruiting new users; not used on normal wikis",
+	'newsignuppage-recruited' => "$1 is a URL to the recruited user's user page; $2 is the recruited user's username. This message is displayed on Special:UserActivity and on the output of &lt;siteactivity&gt; tag on wikis where the [[mw:Extension:SocialProfile|SocialProfile extension]] is installed and site administrators have chosen to give out points for recruiting new users; not used on normal wikis",
 	'shoutwiki-loginform-tos' => 'The text for the new checkbox which is displayed in Special:UserLogin/signup, right below the "Remember my login on this computer" checkbox',
 	'shoutwiki-must-accept-tos' => "Error message displayed to the user in Special:UserLogin/signup in a fancy red <code>&lt;div&gt;</code> if they don't check the \"I accept the Terms of Service\" checkbox",
 	'right-bypasstoscheck' => 'Shown on Special:ListGroupRights',
@@ -60,7 +60,7 @@ $messages['es'] = array(
 
 /** Finnish (Suomi) */
 $messages['fi'] = array(
-	'login-reg-recruited' => 'värväsi käyttäjän [$1 $2]',
+	'newsignuppage-recruited' => 'värväsi käyttäjän [$1 $2]',
 	'shoutwiki-loginform-tos' => 'Olen yli 13-vuotias ja olen lukenut, ymmärtänyt ja sitoutunut noudattamaan <a href="http://www.shoutwiki.com/wiki/Terms_of_use">käyttöehtoja</a> ja <a href="http://www.shoutwiki.com/wiki/Privacy_policy">tietosuojakäytäntöä</a>',
 	'shoutwiki-must-accept-tos' => 'Sinun tulee hyväksyä sivuston käyttöehdot voidaksesi luoda tunnuksen!',
 	'right-bypasstoscheck' => 'Luoda uusia tunnuksia hyväksymättä sivuston käyttöehtoja',
@@ -92,7 +92,7 @@ $messages['ko'] = array(
  * @author Mitchel Corstjens
  */
 $messages['nl'] = array(
-	'login-reg-recruited' => 'rekruteerde [$1 $2]',
+	'newsignuppage-recruited' => 'rekruteerde [$1 $2]',
 	'shoutwiki-loginform-tos' => 'Ik ben ouder dan 13 jaar en heb de <a href="http://www.shoutwiki.com/wiki/Terms_of_use">gebruiks overeenkomst</a> en de <a href="http://www.shoutwiki.com/wiki/Privacy_policy">Privacy Policy</a> gelezen en ga hier mee akkoord',
 	'shoutwiki-must-accept-tos' => 'Je moet akkoord gaan met de gebruiks overeenkomst van de site om een account aan te kunnen maken!',
 	'right-bypasstoscheck' => "Creëer een nieuwe account zonder akkoord te gaan met de gebruiks overeenkomst",

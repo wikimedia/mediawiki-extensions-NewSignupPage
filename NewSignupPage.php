@@ -4,9 +4,9 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.4.1
+ * @version 0.4.2
  * @author Jack Phoenix <jack@countervandalism.net>
- * @copyright Copyright © 2008-2011 Jack Phoenix
+ * @copyright Copyright © 2008-2012 Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @note Uses GPL-licensed code from LoginReg extension (functions
  * fnRegisterAutoAddFriend and fnRegisterTrack)
@@ -24,7 +24,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'name' => 'New Signup Page',
 	'author' => 'Jack Phoenix',
-	'version' => '0.4.1',
+	'version' => '0.4.2',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NewSignupPage',
 	'description' => 'Adds new features to [[Special:UserLogin/signup|signup form]]',
 );
@@ -181,7 +181,7 @@ function fnRegisterTrack( $user ) {
 				// database table - we don't want to display Japanese text
 				// to English users
 				$message = wfMsgExt(
-					'login-reg-recruited',
+					'newsignuppage-recruited',
 					array( 'parseinline' ),
 					$user_registering_title->getFullURL(),
 					$user->getName()
