@@ -4,7 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.4.2
  * @author Jack Phoenix <jack@countervandalism.net>
  * @copyright Copyright © 2008-2012 Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -24,12 +23,13 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'name' => 'New Signup Page',
 	'author' => 'Jack Phoenix',
-	'version' => '0.4.2',
+	'version' => '0.5.0',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NewSignupPage',
 	'description' => 'Adds new features to [[Special:UserLogin/signup|signup form]]',
 );
 
 // Internationalization file
+$wgMessagesDirs['NewSignupPage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['NewSignupPage'] = dirname( __FILE__ ) . '/NewSignupPage.i18n.php';
 
 // New user right, allows bypassing the ToS check on signup form
