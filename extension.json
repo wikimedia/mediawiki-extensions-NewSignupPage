@@ -1,0 +1,61 @@
+{
+	"name": "New Signup Page",
+	"version": "0.7",
+	"author": [
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:NewSignupPage",
+	"description": "Adds new features to the [[Special:UserLogin/signup|signup form]]",
+	"type": "other",
+	"config": {
+		"RegisterTrack": false,
+		"AutoAddFriendOnInvite": false,
+		"ForceNewSignupPageInitialization": false
+	},
+	"MessagesDirs": {
+		"NewSignupPage": [
+			"i18n"
+		]
+	},
+	"APIModules": {
+		"newsignuppage": "ApiNewSignupPage"
+	},
+	"AutoloadClasses": {
+		"ApiNewSignupPage": "ApiNewSignupPage.php",
+		"NewSignupPage": "NewSignupPage.class.php"
+	},
+	"Hooks": {
+		"AbortNewAccount": [
+			"NewSignupPage::onAbortNewAccount"
+		],
+		"BeforePageDisplay": [
+			"NewSignupPage::onBeforePageDisplay"
+		],
+		"UserCreateForm": [
+			"NewSignupPage::onSignup"
+		]
+	},
+	"ExtensionFunctions": [
+		"NewSignupPage::handleSocialTools"
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "NewSignupPage"
+	},
+	"ResourceModules": {
+		"ext.newsignuppage": {
+			"scripts": "NewSignupPage.js",
+			"messages": [
+				"newsignuppage-username-exists",
+				"newsignuppage-username-available",
+				"newsignuppage-password-mismatch"
+			],
+			"position": "bottom"
+		}
+	},
+	"AvailableRights": [
+		"bypasstoscheck"
+	],
+	"manifest_version": 1
+}

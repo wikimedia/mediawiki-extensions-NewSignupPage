@@ -4,27 +4,18 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.6
  * @author Jack Phoenix <jack@countervandalism.net>
- * @copyright Copyright © 2008-2014 Jack Phoenix
+ * @copyright Copyright © 2008-2015 Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @note Uses GPL-licensed code from LoginReg extension (functions
  * fnRegisterAutoAddFriend and fnRegisterTrack)
  */
 
-/**
- * Protect against register_globals vulnerabilities.
- * This line must be present before any global variable is referenced.
- */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( "This is not a valid entry point.\n" );
-}
-
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['other'][] = array(
 	'name' => 'New Signup Page',
 	'author' => 'Jack Phoenix',
-	'version' => '0.6',
+	'version' => '0.7',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:NewSignupPage',
 	'description' => 'Adds new features to the [[Special:UserLogin/signup|signup form]]',
 );

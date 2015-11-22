@@ -1,8 +1,16 @@
 <?php
 /**
+ * NewSignupPage extension for MediaWiki -- enhances the default signup form
+ *
  * All class methods are public and static.
  *
  * @file
+ * @ingroup Extensions
+ * @author Jack Phoenix <jack@countervandalism.net>
+ * @copyright Copyright © 2008-2015 Jack Phoenix
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @note Uses GPL-licensed code from LoginReg extension (functions
+ * fnRegisterAutoAddFriend and fnRegisterTrack)
  */
 class NewSignupPage {
 
@@ -26,9 +34,9 @@ class NewSignupPage {
 	/**
 	 * Add the JavaScript file to the page output on the signup page.
 	 *
-	 * @param $out OutputPage
-	 * @param $skin Skin
-	 * @return Boolean
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return bool
 	 */
 	public static function onBeforePageDisplay( &$out, &$skin ) {
 		$context = $out;
@@ -62,8 +70,8 @@ class NewSignupPage {
 	/**
 	 * Adds the checkbox into Special:UserLogin/signup
 	 *
-	 * @param $template QuickTemplate instance
-	 * @return Boolean: true
+	 * @param QuickTemplate $template QuickTemplate instance
+	 * @return bool
 	 */
 	public static function onSignup( &$template ) {
 		global $wgRequest;
@@ -81,9 +89,9 @@ class NewSignupPage {
 	/**
 	 * Abort the creation of the new account if the user hasn't checked the checkbox
 	 *
-	 * @param $user User: the User about to be created (read-only, incomplete)
-	 * @param $message String: error message to be displayed to the user, if any
-	 * @return Boolean: false by default, true if user has checked the checkbox or has 'bypasstoscheck' right
+	 * @param User $user The User about to be created (read-only, incomplete)
+	 * @param string $message Error message to be displayed to the user, if any
+	 * @return bool False by default, true if user has checked the checkbox or has 'bypasstoscheck' right
 	 */
 	public static function onAbortNewAccount( $user, $message ) {
 		global $wgRequest, $wgUser;
@@ -106,8 +114,8 @@ class NewSignupPage {
 	 * Automatically make the referring user and the newly-registered user
 	 * friends if $wgAutoAddFriendOnInvite is set to true.
 	 *
-	 * @param $user User: the newly-created user
-	 * @return Boolean: true
+	 * @param User $user The newly-created user
+	 * @return bool
 	 */
 	public static function autoAddFriend( $user ) {
 		global $wgRequest, $wgAutoAddFriendOnInvite;
@@ -140,8 +148,8 @@ class NewSignupPage {
 	 * Track new user registrations to the user_register_track database table if
 	 * $wgRegisterTrack is set to true.
 	 *
-	 * @param $user User: the newly-created user
-	 * @return Boolean: true
+	 * @param User $user The newly-created user
+	 * @return bool
 	 */
 	public static function trackRegistration( $user ) {
 		global $wgRequest, $wgRegisterTrack, $wgMemc;
