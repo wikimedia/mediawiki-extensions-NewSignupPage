@@ -103,7 +103,7 @@ class NewSignupPage {
 		{
 			return true;
 		} else {
-			$message = wfMsg( 'shoutwiki-must-accept-tos' );
+			$message = wfMessage( 'shoutwiki-must-accept-tos' )->text();
 			return false;
 		}
 
@@ -188,12 +188,11 @@ class NewSignupPage {
 					// Nees to be forContent because addMessage adds this into a
 					// database table - we don't want to display Japanese text
 					// to English users
-					$message = wfMsgExt(
+					$message = wfMessage(
 						'newsignuppage-recruited',
-						array( 'parseinline' ),
 						$user_registering_title->getFullURL(),
 						$user->getName()
-					);
+					)->parse();
 					$m->addMessage( $user_title->getText(), 1, $message );
 				}
 			}
