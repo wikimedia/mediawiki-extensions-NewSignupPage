@@ -2,8 +2,6 @@
     "@metadata": {
         "authors": []
     },
-	"newsignuppage-username-exists": "Käyttäjänimi on jo käytössä!",
-	"newsignuppage-username-available": "Käyttäjänimi on saatavilla!",
 	"newsignuppage-password-mismatch": "Salasanat eivät täsmää!",
     "newsignuppage-recruited": "värväsi käyttäjän [$1 $2]",
     "shoutwiki-loginform-tos": "Olen yli 13-vuotias ja olen lukenut, ymmärtänyt ja sitoutunut noudattamaan <a href=\"http://www.shoutwiki.com/wiki/Terms_of_use\">käyttöehtoja</a> ja <a href=\"http://www.shoutwiki.com/wiki/Privacy_policy\">tietosuojakäytäntöä</a>",

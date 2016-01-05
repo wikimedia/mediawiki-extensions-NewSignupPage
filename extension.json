@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "0.7",
+	"version": "0.8",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -18,11 +18,7 @@
 			"i18n"
 		]
 	},
-	"APIModules": {
-		"newsignuppage": "ApiNewSignupPage"
-	},
 	"AutoloadClasses": {
-		"ApiNewSignupPage": "ApiNewSignupPage.php",
 		"NewSignupPage": "NewSignupPage.class.php"
 	},
 	"Hooks": {
@@ -47,8 +43,6 @@
 		"ext.newsignuppage": {
 			"scripts": "NewSignupPage.js",
 			"messages": [
-				"newsignuppage-username-exists",
-				"newsignuppage-username-available",
 				"newsignuppage-password-mismatch"
 			],
 			"position": "bottom"

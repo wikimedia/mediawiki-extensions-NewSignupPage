@@ -2,8 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"newsignuppage-username-exists": "Username exists!",
-	"newsignuppage-username-available": "Username is available!",
 	"newsignuppage-password-mismatch": "Passwords don't match!",
 	"newsignuppage-recruited": "recruited [$1 $2]",
 	"shoutwiki-loginform-tos": "I am over 13 years of age and I have read, understood and agree to be bound by the <a href=\"http://www.shoutwiki.com/wiki/Terms_of_use\">Terms of Service</a> and <a href=\"http://www.shoutwiki.com/wiki/Privacy_policy\">Privacy Policy</a>",

@@ -7,7 +7,7 @@
  * @file
  * @ingroup Extensions
  * @author Jack Phoenix <jack@countervandalism.net>
- * @copyright Copyright © 2008-2015 Jack Phoenix
+ * @copyright Copyright © 2008-2016 Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @note Uses GPL-licensed code from LoginReg extension (functions
  * fnRegisterAutoAddFriend and fnRegisterTrack)
@@ -43,7 +43,7 @@ class NewSignupPage {
 		$title = $context->getTitle();
 		$request = $context->getRequest();
 
-		// Only do our magic if we're on the login page
+		// Only do our magic if we're on the signup page
 		if ( $title->isSpecial( 'Userlogin' ) ) {
 			$kaboom = explode( '/', $title->getText() );
 			$signupParamIsSet = false;
