@@ -211,7 +211,6 @@ class NewSignupPage {
 				),
 				__METHOD__
 			);
-			$dbw->commit(); // Just in case...
 		}
 
 		return true;
