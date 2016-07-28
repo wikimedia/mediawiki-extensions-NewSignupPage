@@ -2,6 +2,6 @@
     "@metadata": {
         "authors": []
     },
-    "shoutwiki-loginform-tos": "Ich bin über 13 Jahre alt und ich habe gelesen, verstanden und stimmen zu, die <a href=\"http://www.shoutwiki.com/wiki/Terms_of_use\">Nutzungsbedingungen</a> und <a href=\"http://www.shoutwiki.com/wiki/Privacy_policy\">Datenschutzbestimmungen</a>",
+    "shoutwiki-loginform-tos": "Ich bin über 13 Jahre alt und ich habe gelesen, verstanden und stimmen zu, die [http://www.shoutwiki.com/wiki/Terms_of_use Nutzungsbedingungen] und [http://www.shoutwiki.com/wiki/Privacy_policy Datenschutzbestimmungen]",
     "shoutwiki-must-accept-tos": "Sie müssen akzeptieren, die Website-Nutzungsbedingungen, um in der Lage, ein Konto erstellen!"
 }
