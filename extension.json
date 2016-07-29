@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "0.8",
+	"version": "0.9",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -8,6 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:NewSignupPage",
 	"description": "Adds new features to the [[Special:UserLogin/signup|signup form]]",
 	"type": "other",
+	"callback": "NewSignupPage::registerExtension",
 	"config": {
 		"RegisterTrack": false,
 		"AutoAddFriendOnInvite": false,
@@ -19,22 +20,15 @@
 		]
 	},
 	"AutoloadClasses": {
-		"NewSignupPage": "NewSignupPage.class.php"
+		"NewSignupPage": "NewSignupPage.class.php",
+		"NewSignupPageAuthenticationRequest": "NewSignupPageAuthenticationRequest.php",
+		"NewSignupPageSecondaryAuthenticationProvider": "NewSignupPageSecondaryAuthenticationProvider.php"
 	},
 	"Hooks": {
-		"AbortNewAccount": [
-			"NewSignupPage::onAbortNewAccount"
-		],
 		"BeforePageDisplay": [
 			"NewSignupPage::onBeforePageDisplay"
-		],
-		"UserCreateForm": [
-			"NewSignupPage::onSignup"
 		]
 	},
-	"ExtensionFunctions": [
-		"NewSignupPage::handleSocialTools"
-	],
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteExtPath": "NewSignupPage"
