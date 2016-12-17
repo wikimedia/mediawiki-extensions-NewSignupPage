@@ -21,9 +21,9 @@ $( function() {
 			!( $( 'input#wpPassword2' ).val() === $( 'input#wpRetype' ).val() )
 		)
 		{
-			var message = mw.msg( 'newsignuppage-password-mismatch' );
+			var message = mw.msg( 'badretype' );
 			$( 'input#wpRetype' ).parent().append(
-				'<span id="password-match-check-result" style="padding: 2px; color: red">' +
+				'<span id="password-match-check-result" class="error">' +
 				message + '</span>'
 			);
 		}

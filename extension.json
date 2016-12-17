@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "0.9",
+	"version": "0.9.1",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -37,7 +37,7 @@
 		"ext.newsignuppage": {
 			"scripts": "NewSignupPage.js",
 			"messages": [
-				"newsignuppage-password-mismatch"
+				"badretype"
 			],
 			"position": "bottom"
 		}

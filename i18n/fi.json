@@ -2,7 +2,6 @@
     "@metadata": {
         "authors": []
     },
-	"newsignuppage-password-mismatch": "Salasanat eivät täsmää!",
     "newsignuppage-recruited": "värväsi käyttäjän [$1 $2]",
     "shoutwiki-loginform-tos": "Olen yli 13-vuotias ja olen lukenut, ymmärtänyt ja sitoutunut noudattamaan [http://www.shoutwiki.com/wiki/Terms_of_use käyttöehtoja] ja [http://www.shoutwiki.com/wiki/Privacy_policy tietosuojakäytäntöä]",
     "shoutwiki-must-accept-tos": "Sinun tulee hyväksyä sivuston käyttöehdot voidaksesi luoda tunnuksen!",
