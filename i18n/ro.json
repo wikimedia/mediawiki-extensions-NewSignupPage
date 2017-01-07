@@ -1,7 +1,7 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "shoutwiki-loginform-tos": "Eu sunt peste 13 de ani şi am citit, înţeles şi sunt de acord să fie obligat de către [http://www.shoutwiki.com/wiki/Terms_of_use Termeni si conditii] şi [http://www.shoutwiki.com/wiki/Privacy_policy Politica de confidentialitate]",
-    "shoutwiki-must-accept-tos": "Trebuie să acceptaţi al site-ului Termeni de furnizare a serviciilor pentru a putea fi capabile de a crea un cont!"
+	"@metadata": {
+		"authors": []
+	},
+	"shoutwiki-loginform-tos": "Eu sunt peste 13 de ani şi am citit, înţeles şi sunt de acord să fie obligat de către [http://www.shoutwiki.com/wiki/Terms_of_use Termeni si conditii] şi [http://www.shoutwiki.com/wiki/Privacy_policy Politica de confidentialitate]",
+	"shoutwiki-must-accept-tos": "Trebuie să acceptaţi al site-ului Termeni de furnizare a serviciilor pentru a putea fi capabile de a crea un cont!"
 }

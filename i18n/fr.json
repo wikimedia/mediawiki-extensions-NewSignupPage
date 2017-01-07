@@ -1,7 +1,7 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "shoutwiki-loginform-tos": "Je suis de plus de 13 ans et j'ai lu, compris et accepté d'être lié par les [http://www.shoutwiki.com/wiki/Terms_of_use\">Conditions d'utilisation] et [http://www.shoutwiki.com/wiki/Privacy_policy politique de confidentialité]",
-    "shoutwiki-must-accept-tos": "Vous devez accepter les présentes Conditions de service afin d'être en mesure de créer un compte !"
+	"@metadata": {
+		"authors": []
+	},
+	"shoutwiki-loginform-tos": "Je suis de plus de 13 ans et j'ai lu, compris et accepté d'être lié par les [http://www.shoutwiki.com/wiki/Terms_of_use\">Conditions d'utilisation] et [http://www.shoutwiki.com/wiki/Privacy_policy politique de confidentialité]",
+	"shoutwiki-must-accept-tos": "Vous devez accepter les présentes Conditions de service afin d'être en mesure de créer un compte !"
 }
