@@ -6,7 +6,7 @@
 	],
 	"license-name": "GPL-2.0+",
 	"url": "https://www.mediawiki.org/wiki/Extension:NewSignupPage",
-	"description": "Adds new features to the [[Special:UserLogin/signup|signup form]]",
+	"descriptionmsg": "newsignuppage-desc",
 	"type": "other",
 	"callback": "NewSignupPage::registerExtension",
 	"config": {

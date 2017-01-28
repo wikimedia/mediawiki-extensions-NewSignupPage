@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
+	"newsignuppage-desc": "Adds new features to the [[Special:UserLogin/signup|signup form]]",
 	"newsignuppage-recruited": "recruited [$1 $2]",
 	"shoutwiki-loginform-tos": "I am over 13 years of age and I have read, understood and agree to be bound by the [http://www.shoutwiki.com/wiki/Terms_of_use Terms of Service] and [http://www.shoutwiki.com/wiki/Privacy_policy Privacy Policy]",
 	"shoutwiki-must-accept-tos": "You must accept the site's Terms of Service in order to be able to create an account!",
