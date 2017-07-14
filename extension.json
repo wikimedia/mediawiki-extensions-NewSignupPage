@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "0.9.1",
+	"version": "1.0.0",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -20,9 +20,9 @@
 		]
 	},
 	"AutoloadClasses": {
-		"NewSignupPage": "NewSignupPage.class.php",
-		"NewSignupPageAuthenticationRequest": "NewSignupPageAuthenticationRequest.php",
-		"NewSignupPageSecondaryAuthenticationProvider": "NewSignupPageSecondaryAuthenticationProvider.php"
+		"NewSignupPage": "includes/NewSignupPage.class.php",
+		"NewSignupPageAuthenticationRequest": "includes/auth/NewSignupPageAuthenticationRequest.php",
+		"NewSignupPageSecondaryAuthenticationProvider": "includes/auth/NewSignupPageSecondaryAuthenticationProvider.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
@@ -35,7 +35,7 @@
 	},
 	"ResourceModules": {
 		"ext.newsignuppage": {
-			"scripts": "NewSignupPage.js",
+			"scripts": "resources/js/NewSignupPage.js",
 			"messages": [
 				"badretype"
 			],
