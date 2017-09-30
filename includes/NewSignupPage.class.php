@@ -13,16 +13,6 @@
 class NewSignupPage {
 
 	/**
-	 * Automatically register our new preauth provider with AuthManager when
-	 * this extension is enabled
-	 */
-	public static function registerExtension() {
-		global $wgAuthManagerAutoConfig;
-		$wgAuthManagerAutoConfig['secondaryauth'][NewSignupPageSecondaryAuthenticationProvider::class] =
-				[ 'class' => NewSignupPageSecondaryAuthenticationProvider::class ];
-	}
-
-	/**
 	 * Add the JavaScript file to the page output on the signup page.
 	 *
 	 * @param OutputPage $out

@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -8,7 +8,6 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:NewSignupPage",
 	"descriptionmsg": "newsignuppage-desc",
 	"type": "other",
-	"callback": "NewSignupPage::registerExtension",
 	"config": {
 		"RegisterTrack": false,
 		"AutoAddFriendOnInvite": false,
@@ -23,6 +22,13 @@
 		"NewSignupPage": "includes/NewSignupPage.class.php",
 		"NewSignupPageAuthenticationRequest": "includes/auth/NewSignupPageAuthenticationRequest.php",
 		"NewSignupPageSecondaryAuthenticationProvider": "includes/auth/NewSignupPageSecondaryAuthenticationProvider.php"
+	},
+	"AuthManagerAutoConfig": {
+		"secondaryauth": {
+			"NewSignupPageSecondaryAuthenticationProvider": {
+				"class": "NewSignupPageSecondaryAuthenticationProvider"
+			}
+		}
 	},
 	"Hooks": {
 		"BeforePageDisplay": [
