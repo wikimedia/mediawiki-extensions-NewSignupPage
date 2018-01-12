@@ -97,7 +97,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 		}
 
 		if ( $wgRegisterTrack ) {
-			$wgMemc->delete( wfMemcKey( 'users', 'new', '1' ) );
+			$wgMemc->delete( $wgMemc->makeKey( 'users', 'new', '1' ) );
 
 			// How the user registered (via email from friend, just on the site etc.)?
 			$from = $req->from;
