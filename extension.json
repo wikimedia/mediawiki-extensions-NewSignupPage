@@ -44,8 +44,7 @@
 			"scripts": "resources/js/NewSignupPage.js",
 			"messages": [
 				"badretype"
-			],
-			"position": "bottom"
+			]
 		}
 	},
 	"AvailableRights": [
