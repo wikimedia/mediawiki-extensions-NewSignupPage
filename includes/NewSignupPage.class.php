@@ -8,7 +8,7 @@
  * @ingroup Extensions
  * @author Jack Phoenix
  * @copyright Copyright © 2008-2017 Jack Phoenix
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  */
 class NewSignupPage {
 

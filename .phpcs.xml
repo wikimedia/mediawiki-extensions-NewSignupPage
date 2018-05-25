@@ -7,7 +7,6 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamName"></exclude>
 		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag"></exclude>
 		<exclude name="MediaWiki.Commenting.FunctionComment.ParamNameNoMatch"></exclude>
-		<exclude name="MediaWiki.Commenting.LicenseComment.InvalidLicenseTag"></exclude>
 		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch"></exclude>
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeControlStructureBrace.BraceOnNewLine"></exclude>
 		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment"></exclude>
