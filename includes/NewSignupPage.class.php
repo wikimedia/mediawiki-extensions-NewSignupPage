@@ -42,8 +42,7 @@ class NewSignupPage {
 			if (
 				$request->getVal( 'type' ) == 'signup' ||
 				$signupParamIsSet
-			)
-			{
+			) {
 				$out->addModules( 'ext.newsignuppage' );
 			}
 		}

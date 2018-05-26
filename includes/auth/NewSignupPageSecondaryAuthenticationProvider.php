@@ -14,7 +14,8 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 	/**
 	 * @param array $params
 	 */
-	public function __construct( $params = [] ) {}
+	public function __construct( $params = [] ) {
+	}
 
 	/**
 	 * Abort the creation of the new account if the user hasn't checked the
@@ -31,8 +32,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 		if (
 			$req && $req->wpTermsOfService ||
 			$creator->isAllowed( 'bypasstoscheck' )
-		)
-		{
+		) {
 			return StatusValue::newGood();
 		} else {
 			return StatusValue::newFatal( 'shoutwiki-must-accept-tos' );
@@ -143,14 +143,14 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			$dbw = wfGetDB( DB_MASTER );
 			$dbw->insert(
 				'user_register_track',
-				array(
+				[
 					'ur_user_id' => $user->getId(),
 					'ur_user_name' => $user->getName(),
 					'ur_user_id_referral' => $user_id_referral,
 					'ur_user_name_referral' => $user_name_referral,
 					'ur_from' => $from,
 					'ur_date' => date( 'Y-m-d H:i:s' )
-				),
+				],
 				__METHOD__
 			);
 		}

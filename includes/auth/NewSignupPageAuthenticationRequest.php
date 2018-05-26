@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Auth\AuthenticationRequest;
+
 /**
  * @ingroup Auth
  * @since MediaWiki 1.27
