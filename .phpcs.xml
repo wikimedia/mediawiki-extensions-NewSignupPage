@@ -1,18 +1,13 @@
 <?xml version="1.0"?>
 <ruleset>
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
-		<exclude name="Generic.Arrays.DisallowLongArraySyntax.Found"></exclude>
-		<exclude name="Generic.Files.LineLength.TooLong"></exclude>
-		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic"></exclude>
-		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamName"></exclude>
-		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag"></exclude>
-		<exclude name="MediaWiki.Commenting.FunctionComment.ParamNameNoMatch"></exclude>
-		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch"></exclude>
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeControlStructureBrace.BraceOnNewLine"></exclude>
-		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment"></exclude>
-		<exclude name="PSR2.Files.EndFileNewline.NoneFound"></exclude>
-		<exclude name="PSR2.Namespaces.UseDeclaration.SpaceAfterLastUse"></exclude>
-		<exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"></exclude>
+		<exclude name="Generic.Files.LineLength.TooLong" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamName" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingParamTag" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.ParamNameNoMatch" />
+		<exclude name="MediaWiki.Files.ClassMatchesFilename.NotMatch" />
+		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
 	</rule>
 	<file>.</file>
 	<arg name="bootstrap" value="./vendor/mediawiki/mediawiki-codesniffer/utils/bootstrap-ci.php"/>
