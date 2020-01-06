@@ -12,7 +12,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	/**
 	 * @var int $from Email invitation source identifier to be stored in the
 	 * user_email_track table
-	 * @see /extensions/SocialProfile/UserStats/UserStatsClass.php for details
+	 * @see /extensions/MiniInvite/includes/UserEmailTrack.class.php for details
 	 */
 	public $from;
 

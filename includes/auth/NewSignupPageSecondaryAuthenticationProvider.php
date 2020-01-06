@@ -60,39 +60,39 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			$reqs, NewSignupPageAuthenticationRequest::class
 		);
 
-		if ( $wgAutoAddFriendOnInvite ) {
-			$referral_user = $req->referral;
-			if ( $referral_user ) {
-				$user_id_referral = User::idFromName( $referral_user );
-				if ( $user_id_referral ) {
-					// need to create fake request first
-					$rel = new UserRelationship( $referral_user );
-					$request_id = $rel->addRelationshipRequest(
-						$user->getName(), 1, '', false
-					);
+		$referral_user = User::newFromName( $req->referral );
+		$user_id_referral = 0;
 
-					// clear the status
-					$rel->updateRelationshipRequestStatus( $request_id, 1 );
+		if ( $wgAutoAddFriendOnInvite && $referral_user instanceof User ) {
+			$user_id_referral = $referral_user->getId();
+			if ( $user_id_referral ) {
+				// need to create fake request first
+				$rel = new UserRelationship( $referral_user->getName() );
+				$request_id = $rel->addRelationshipRequest(
+					$user->getName(), 1, '', false
+				);
 
-					// automatically add relationships
-					$rel = new UserRelationship( $user->getName() );
-					$rel->addRelationship( $request_id, true );
+				// clear the status
+				$rel->updateRelationshipRequestStatus( $request_id, 1 );
 
-					// Update social statistics for both users (so that we don't
-					// show "0 of 0" in the new user's profile when they in fact
-					// do have one friend already!)
-					// @todo CHECKME: Does this work as intended? Locally I wasn't
-					// able to get it working and I figured that's got something
-					// to do wit hthe fact that updateRelationshipCount here
-					// does an UPDATE query with the LOW_PRIORITY option...
-					$stats = new UserStatsTrack( $user->getId(), '' );
-					$stats->updateRelationshipCount( 1 );
-					$stats->incStatField( 'friend' );
+				// automatically add relationships
+				$rel = new UserRelationship( $user->getName() );
+				$rel->addRelationship( $request_id, true );
 
-					$statsReferringUser = new UserStatsTrack( $user_id_referral, '' );
-					$statsReferringUser->updateRelationshipCount( 1 );
-					$statsReferringUser->incStatField( 'friend' );
-				}
+				// Update social statistics for both users (so that we don't
+				// show "0 of 0" in the new user's profile when they in fact
+				// do have one friend already!)
+				// @todo FIXME: broken until UserStatsTrack is refactored to support RequestContext
+				// instead of global objects (the global object in incStatField() is _not_
+				// our $user even though by all logic it should be and it was in older versions
+				// of MW)
+				$stats = new UserStatsTrack( $user->getId(), $user->getName() );
+				$stats->updateRelationshipCount( 1 );
+				$stats->incStatField( 'friend' );
+
+				$statsReferringUser = new UserStatsTrack( $user_id_referral, $referral_user->getName() );
+				$statsReferringUser->updateRelationshipCount( 1 );
+				$statsReferringUser->incStatField( 'friend' );
 			}
 		}
 
@@ -106,21 +106,10 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			}
 
 			// Track if the user clicked on email from friend
-			$user_id_referral = 0;
-			$user_name_referral = '';
-			$referral_user = $req->referral;
-
-			if ( $referral_user ) {
-				$user_registering_title = Title::makeTitle( NS_USER, $user->getName() );
-				$user_title = Title::newFromDBkey( $referral_user );
-				$user_id_referral = User::idFromName( $user_title->getText() );
-				if ( $user_id_referral ) {
-					$user_name_referral = $user_title->getText();
-				}
-
+			if ( $referral_user instanceof User ) {
 				// Update the social statistics of the referring user (to give
 				// them points, if specified so on the configuration file)
-				$stats = new UserStatsTrack( $user_id_referral, $user_title->getText() );
+				$stats = new UserStatsTrack( $referral_user->getId(), $referral_user->getName() );
 				$stats->incStatField( 'referral_complete' );
 
 				// Add a new site activity event that will show up on the output
@@ -132,10 +121,14 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 					// to English users
 					$message = wfMessage(
 						'newsignuppage-recruited',
-						$user_registering_title->getFullURL(),
+						$user->getUserPage()->getFullURL(),
 						$user->getName()
 					)->parse();
-					$m->addMessage( $user_title->getText(), 1, $message );
+					$m->addMessage(
+						$referral_user->getName(),
+						UserSystemMessage::TYPE_RECRUIT,
+						$message
+					);
 				}
 			}
 
@@ -144,10 +137,8 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			$dbw->insert(
 				'user_register_track',
 				[
-					'ur_user_id' => $user->getId(),
-					'ur_user_name' => $user->getName(),
-					'ur_user_id_referral' => $user_id_referral,
-					'ur_user_name_referral' => $user_name_referral,
+					'ur_actor' => $user->getActorId(),
+					'ur_actor_referral' => ( $referral_user instanceof User ? $referral_user->getActorId() : 0 ),
 					'ur_from' => $from,
 					'ur_date' => date( 'Y-m-d H:i:s' )
 				],

@@ -5,7 +5,7 @@
  * @file
  * @ingroup Extensions
  * @author Jack Phoenix
- * @copyright Copyright © 2008-2019 Jack Phoenix
+ * @copyright Copyright © 2008-2020 Jack Phoenix
  * @license GPL-2.0-or-later
  */
 class NewSignupPage {
@@ -24,6 +24,29 @@ class NewSignupPage {
 			// It's called Special:CreateAccount since AuthManager (MW 1.27+)
 			$out->addModules( 'ext.newsignuppage' );
 		}
+	}
+
+	/**
+	 * Creates the necessary database table when the user runs
+	 * maintenance/update.php, the core MediaWiki updater script, provided that
+	 * the configuration specifies us to create it.
+	 *
+	 * @param $updater DatabaseUpdater
+	 * @return bool True when we should not do anything
+	 */
+	public static function onLoadExtensionSchemaUpdates( $updater ) {
+		global $wgRegisterTrack;
+
+		$db = $updater->getDB();
+
+		if ( !$db->tableExists( 'user_register_track' ) && !$wgRegisterTrack ) {
+			// Table doesn't exist and shouldn't either -> bail out
+			return true;
+		}
+
+		$dir = __DIR__ . '/../sql';
+
+		$updater->addExtensionTable( 'user_register_track', $dir . '/user_register_track.sql' );
 	}
 
 }
