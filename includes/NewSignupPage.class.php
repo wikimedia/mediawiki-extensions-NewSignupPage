@@ -45,8 +45,13 @@ class NewSignupPage {
 		}
 
 		$dir = __DIR__ . '/../sql';
+		$dbType = $db->getType();
+		$file = $dir . '/user_register_track.sql';
+		if ( $dbType === 'postgres' ) {
+			$file = $dir . '/user_register_track.postgres.sql';
+		}
 
-		$updater->addExtensionTable( 'user_register_track', $dir . '/user_register_track.sql' );
+		$updater->addExtensionTable( 'user_register_track', $file );
 	}
 
 }
