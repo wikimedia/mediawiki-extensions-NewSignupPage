@@ -4,6 +4,7 @@ use MediaWiki\Auth\AbstractSecondaryAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\Auth\AuthenticationResponse;
 use MediaWiki\Auth\AuthManager;
+use MediaWiki\MediaWikiServices;
 
 /**
  * @license GPL-2.0-or-later
@@ -54,7 +55,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 	}
 
 	public function beginSecondaryAccountCreation( $user, $creator, array $reqs ) {
-		global $wgMemc, $wgAutoAddFriendOnInvite, $wgRegisterTrack;
+		global $wgAutoAddFriendOnInvite, $wgRegisterTrack;
 
 		$req = AuthenticationRequest::getRequestByClass(
 			$reqs, NewSignupPageAuthenticationRequest::class
@@ -97,7 +98,8 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 		}
 
 		if ( $wgRegisterTrack ) {
-			$wgMemc->delete( $wgMemc->makeKey( 'users', 'new', '1' ) );
+			$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+			$cache->delete( $cache->makeKey( 'users', 'new', '1' ) );
 
 			// How the user registered (via email from friend, just on the site etc.)?
 			$from = $req->from;
