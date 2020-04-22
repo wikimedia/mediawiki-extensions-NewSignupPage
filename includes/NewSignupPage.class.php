@@ -13,8 +13,8 @@ class NewSignupPage {
 	/**
 	 * Add the JavaScript file to the page output on the signup page.
 	 *
-	 * @param OutputPage $out
-	 * @param Skin $skin
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
 	 */
 	public static function onBeforePageDisplay( &$out, &$skin ) {
 		$title = $out->getTitle();
