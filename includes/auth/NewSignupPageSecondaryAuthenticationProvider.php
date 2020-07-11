@@ -24,7 +24,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 	 * bypass that check.
 	 *
 	 * @param User $user
-	 * @param $creator
+	 * @param User $creator
 	 * @param array $reqs
 	 * @return StatusValue
 	 */

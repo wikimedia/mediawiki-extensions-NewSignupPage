@@ -31,7 +31,7 @@ class NewSignupPage {
 	 * maintenance/update.php, the core MediaWiki updater script, provided that
 	 * the configuration specifies us to create it.
 	 *
-	 * @param $updater DatabaseUpdater
+	 * @param DatabaseUpdater $updater
 	 * @return bool True when we should not do anything
 	 */
 	public static function onLoadExtensionSchemaUpdates( $updater ) {
