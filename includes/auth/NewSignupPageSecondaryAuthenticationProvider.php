@@ -142,7 +142,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 					'ur_actor' => $user->getActorId(),
 					'ur_actor_referral' => ( $referral_user instanceof User ? $referral_user->getActorId() : 0 ),
 					'ur_from' => $from,
-					'ur_date' => date( 'Y-m-d H:i:s' )
+					'ur_date' => $dbw->timestamp( date( 'Y-m-d H:i:s' ) )
 				],
 				__METHOD__
 			);
