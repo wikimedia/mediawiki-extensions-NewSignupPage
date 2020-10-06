@@ -39,6 +39,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	}
 
 	public function getFieldInfo() {
+		global $wgNewSignupPageToSURL, $wgNewSignupPagePPURL;
 		return [
 			'from' => [
 				'type' => 'hidden',
@@ -52,7 +53,11 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 			],
 			'wpTermsOfService' => [
 				'type' => 'checkbox',
-				'label' => wfMessage( 'shoutwiki-loginform-tos' )
+				'label' => wfMessage(
+					'shoutwiki-loginform-tos',
+					$wgNewSignupPageToSURL,
+					$wgNewSignupPagePPURL
+				)
 			]
 		];
 	}

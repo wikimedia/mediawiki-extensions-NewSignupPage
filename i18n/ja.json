@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": []
 	},
-	"shoutwiki-loginform-tos": "私は年齢13歳以上ですと私は、読んだことを理解し、同意に拘束されることには、 [http://www.shoutwiki.com/wiki/Terms_of_use 利用規約] 、 [http://www.shoutwiki.com/wiki/Privacy_policy プライバシーポリシー]"
+	"shoutwiki-loginform-tos": "私は年齢13歳以上ですと私は、読んだことを理解し、同意に拘束されることには、 [$1 利用規約] 、 [$2 プライバシーポリシー]"
 }

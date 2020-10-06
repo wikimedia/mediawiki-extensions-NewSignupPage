@@ -1,6 +1,6 @@
 {
 	"name": "New Signup Page",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -22,6 +22,18 @@
 			"value": false,
 			"path": false,
 			"description": "When a user signs up via a referral link, add the referring user automatically as the new user's friend (and vice-versa)?",
+			"public": false
+		},
+		"NewSignupPageToSURL": {
+			"value": "http://www.shoutwiki.com/wiki/Terms_of_use",
+			"path": false,
+			"description": "Canonical URL to the site's terms of use page",
+			"public": false
+		},
+		"NewSignupPagePPURL": {
+			"value": "http://www.shoutwiki.com/wiki/Privacy_policy",
+			"path": false,
+			"description": "Canonical URL to the site's privacy policy page",
 			"public": false
 		}
 	},
