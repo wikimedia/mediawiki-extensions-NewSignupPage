@@ -13,8 +13,7 @@
 	},
 	"config": {
 		"RegisterTrack": false,
-		"AutoAddFriendOnInvite": false,
-		"ForceNewSignupPageInitialization": false
+		"AutoAddFriendOnInvite": false
 	},
 	"MessagesDirs": {
 		"NewSignupPage": [
