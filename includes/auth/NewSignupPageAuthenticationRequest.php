@@ -54,7 +54,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 			'wpTermsOfService' => [
 				'type' => 'checkbox',
 				'label' => wfMessage(
-					'shoutwiki-loginform-tos',
+					'newsignuppage-loginform-tos',
 					$wgNewSignupPageToSURL,
 					$wgNewSignupPagePPURL
 				)

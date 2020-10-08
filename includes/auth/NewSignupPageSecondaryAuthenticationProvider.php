@@ -36,7 +36,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 		) {
 			return StatusValue::newGood();
 		} else {
-			return StatusValue::newFatal( 'shoutwiki-must-accept-tos' );
+			return StatusValue::newFatal( 'newsignuppage-must-accept-tos' );
 		}
 	}
 

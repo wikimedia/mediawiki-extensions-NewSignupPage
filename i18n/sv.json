@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"shoutwiki-loginform-tos": "Jag är över 13 år och jag har läst, förstått och samtycker till att vara bunden av [$1 användarvillkor] och [$2 sekretessvillkor]",
-	"shoutwiki-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!"
+	"newsignuppage-loginform-tos": "Jag är över 13 år och jag har läst, förstått och samtycker till att vara bunden av [$1 användarvillkor] och [$2 sekretessvillkor]",
+	"newsignuppage-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!"
 }

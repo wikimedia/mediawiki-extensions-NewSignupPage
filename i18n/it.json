@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"shoutwiki-loginform-tos": "Sono oltre 13 anni di età e che ho letto, capito ed accetti di essere vincolato dai [$1 Termini di servizio] e [$2 policy sulla privacy]",
-	"shoutwiki-must-accept-tos": "È necessario accettare il sito Termini e condizioni del servizio, al fine di essere in grado di creare un account!"
+	"newsignuppage-loginform-tos": "Sono oltre 13 anni di età e che ho letto, capito ed accetti di essere vincolato dai [$1 Termini di servizio] e [$2 policy sulla privacy]",
+	"newsignuppage-must-accept-tos": "È necessario accettare il sito Termini e condizioni del servizio, al fine di essere in grado di creare un account!"
 }

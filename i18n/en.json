@@ -4,8 +4,8 @@
 	},
 	"newsignuppage-desc": "Adds new features to the [[Special:CreateAccount|signup form]]",
 	"newsignuppage-recruited": "recruited [$1 $2]",
-	"shoutwiki-loginform-tos": "I am over 13 years of age and I have read, understood and agree to be bound by the [$1 Terms of Service] and [$2 Privacy Policy]",
-	"shoutwiki-must-accept-tos": "You must accept the site's Terms of Service in order to be able to create an account!",
+	"newsignuppage-loginform-tos": "I am over 13 years of age and I have read, understood and agree to be bound by the [$1 Terms of Service] and [$2 Privacy Policy]",
+	"newsignuppage-must-accept-tos": "You must accept the site's Terms of Service in order to be able to create an account!",
 	"action-bypasstoscheck": "create new accounts without explicitly accepting the site's Terms of Service",
 	"right-bypasstoscheck": "Create new accounts without explicitly accepting the site's Terms of Service"
 }
