@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"newsignuppage-desc": "Adiciona novos recursos ao [[Special:CreateAccount|formulário de inscrição]]",
+	"newsignuppage-loginform-tos": "Tenho mais de 13 anos de idade e eu tenho lido, entendido e concordado em se comprometer com o [$1 Termos de Serviço] e [$2 política de privacidade]",
+	"newsignuppage-must-accept-tos": "Você precisa aceitar os Termos de Serviço do site, a fim de ser capaz de criar uma conta!",
+	"action-bypasstoscheck": "criar novas contas sem aceitar explicitamente os Termos de Serviço do site",
+	"right-bypasstoscheck": "Criar novas contas sem aceitar explicitamente os Termos de Serviço do site"
+}

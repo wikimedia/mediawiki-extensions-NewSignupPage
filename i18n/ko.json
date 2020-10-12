@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Ykhwong"
+		]
 	},
-	"newsignuppage-loginform-tos": "내가 나이이고 13 년 이상을 읽고 이해하고 동의에 의해 구속 수있는 [$1 서비스 약관]과 [$2 개인 정보 보호 정책]"
+	"newsignuppage-loginform-tos": "저의 나이는 13살을 초과하며 [$1 서비스 조항]과 [$2 개인 정보 보호 정책]을 읽었고 이해했으며 동의합니다"
 }

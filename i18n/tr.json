@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"newsignuppage-desc": "[[Special:CreateAccount|Kayıt formuna]] yeni özellikler ekler",
+	"newsignuppage-recruited": "[$1 $2] işe alındı",
+	"newsignuppage-loginform-tos": "13 yaşın üzerindeyim ve [$1 Hizmet Şartları] ve [$2 Gizlilik Politikasını] okudum, anladım ve bunlara bağlı kalmayı kabul ediyorum",
+	"newsignuppage-must-accept-tos": "Bir hesap oluşturabilmek için sitenin Hizmet Şartlarını kabul etmelisiniz!",
+	"action-bypasstoscheck": "sitenin Hizmet Şartlarını açıkça kabul etmeden yeni hesaplar oluştur",
+	"right-bypasstoscheck": "Sitenin Hizmet Şartlarını açıkça kabul etmeden yeni hesaplar oluştur"
+}

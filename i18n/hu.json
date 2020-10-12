@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos",
+			"Misibacsi"
+		]
+	},
+	"newsignuppage-recruited": "[$1 $2] felvéve",
+	"newsignuppage-loginform-tos": "Elmúltam 13 éves és elolvastam, megértettem és elfogadom a [$1 Szerződési feltételeket] és az [$2 Adatvédelmi irányelveket].",
+	"newsignuppage-must-accept-tos": "Fiók létrehozásához el kell fogadnod az oldal Szerződési feltételeit!",
+	"action-bypasstoscheck": "új fiók létrehozása a Szerződési feltételek elfogadása nélkül",
+	"right-bypasstoscheck": "Új fiókok létrehozása a Szerződési feltételek elfogadása nélkül"
+}
