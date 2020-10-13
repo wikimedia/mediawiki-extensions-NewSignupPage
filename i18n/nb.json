@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Jon Harald Søby"
+		]
 	},
+	"newsignuppage-desc": "Legger til nye funksjoner i [[Special:CreateAccount|registreringsskjemaet]]",
+	"newsignuppage-recruited": "rekrutterte [$1 $2]",
 	"newsignuppage-loginform-tos": "Jeg er over 13 år og jeg har lest, forstått og aksepterer å være bundet av [$1 vilkår for bruk] og [$2 personvernerklæring]",
-	"newsignuppage-must-accept-tos": "Du må godta nettstedets Vilkår for bruk for å kunne opprette en konto!"
+	"newsignuppage-must-accept-tos": "Du må godta nettstedets Vilkår for bruk for å kunne opprette en konto!",
+	"action-bypasstoscheck": "opprette nye kontoer uten å eksplisitt godta bruksvilkårene",
+	"right-bypasstoscheck": "Opprette nye kontoer uten å eksplisitt godta bruksvilkårene"
 }
