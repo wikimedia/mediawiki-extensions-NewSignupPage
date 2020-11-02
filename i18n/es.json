@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Fitoschido"
+		]
 	},
-	"newsignuppage-loginform-tos": "Soy mayor de 13 años de edad y he leído, entendido y acepta quedar obligado por los [$1 Términos de servicio] y la [$2 Política de privacidad]",
-	"newsignuppage-must-accept-tos": "Debes aceptar los términos del sitio del servicio con el fin de poder crear una cuenta!"
+	"newsignuppage-loginform-tos": "Soy mayor de 13 años de edad y he leído y entendido y acepto someterme a los [$1 Términos de servicio] y la [$2 Normativa de privacidad]",
+	"newsignuppage-must-accept-tos": "Deben aceptarse los términos de servicio del sitio para poder crear una cuenta."
 }
