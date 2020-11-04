@@ -10,7 +10,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	public $required = self::REQUIRED; // only ToS check is mandatory
 
 	/**
-	 * @var int $from Email invitation source identifier to be stored in the
+	 * @var int Email invitation source identifier to be stored in the
 	 * user_email_track table
 	 * @see /extensions/MiniInvite/includes/UserEmailTrack.class.php for details
 	 */
@@ -25,7 +25,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	public $referral;
 
 	/**
-	 * @var bool $wpTermsOfService Was the "I agree to the terms of service"
+	 * @var bool Was the "I agree to the terms of service"
 	 * checkbox checked? It must be in order for the account creation process
 	 * to continue.
 	 */
