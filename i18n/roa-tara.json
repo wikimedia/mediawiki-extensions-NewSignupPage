@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"newsignuppage-desc": "Aggiunge 'na funziona nove a 'u [[Special:CreateAccount|module de reggistrazione]]",
+	"newsignuppage-recruited": "pigghiate [$1 $2]",
+	"newsignuppage-loginform-tos": "Tenghe cchiù de 13 anne e agghie lette, capite e accette de essere vingolate da le [$1 termine de servizie] e [$2 regole sus 'a privacy]",
+	"newsignuppage-must-accept-tos": "A accettà le termine de servizie pe ccrejà 'nu cunde utende!",
+	"action-bypasstoscheck": "ccreje cunde utende nuève senze accettà esplicitamende le termine de servizie d'u site",
+	"right-bypasstoscheck": "Ccreje cunde utende nuève senze accettà esplicitamende le termine de servizie d'u site"
+}
