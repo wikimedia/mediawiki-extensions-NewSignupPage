@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Andreyyshore"
+		]
 	},
-	"newsignuppage-loginform-tos": "Eu sunt peste 13 de ani şi am citit, înţeles şi sunt de acord să fie obligat de către [$1 Termeni si conditii] şi [$2 Politica de confidentialitate]",
-	"newsignuppage-must-accept-tos": "Trebuie să acceptaţi al site-ului Termeni de furnizare a serviciilor pentru a putea fi capabile de a crea un cont!"
+	"newsignuppage-loginform-tos": "Eu am peste 13 de ani și am citit, am înțeles și accept să respect [$1 termenii de furnizare de servicii] și [$2 politica de confidențialitate]",
+	"newsignuppage-must-accept-tos": "Trebuie să acceptați termenii de furnizare de servicii ai site-ului pentru a putea crea un cont!"
 }
