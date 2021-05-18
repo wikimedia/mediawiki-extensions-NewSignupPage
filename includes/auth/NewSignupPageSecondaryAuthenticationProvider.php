@@ -68,16 +68,14 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			$user_id_referral = $referral_user->getId();
 			if ( $user_id_referral ) {
 				// need to create fake request first
-				$rel = new UserRelationship( $referral_user->getName() );
-				$request_id = $rel->addRelationshipRequest(
-					$user->getName(), 1, '', false
-				);
+				$rel = new UserRelationship( $referral_user );
+				$request_id = $rel->addRelationshipRequest( $user, 1, '', false );
 
 				// clear the status
 				$rel->updateRelationshipRequestStatus( $request_id, 1 );
 
 				// automatically add relationships
-				$rel = new UserRelationship( $user->getName() );
+				$rel = new UserRelationship( $user );
 				$rel->addRelationship( $request_id, true );
 
 				// Update social statistics for both users (so that we don't
@@ -127,7 +125,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 						$user->getName()
 					)->parse();
 					$m->addMessage(
-						$referral_user->getName(),
+						$referral_user,
 						UserSystemMessage::TYPE_RECRUIT,
 						$message
 					);

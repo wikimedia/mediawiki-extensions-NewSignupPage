@@ -5,6 +5,7 @@ use MediaWiki\Auth\AuthenticationRequest;
 /**
  * @ingroup Auth
  * @since MediaWiki 1.27
+ * @phan-file-suppress PhanTypeMismatchReturn It appears that phan seems to hate the retval of getFieldInfo()...
  */
 class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	public $required = self::REQUIRED; // only ToS check is mandatory
@@ -31,6 +32,9 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	 */
 	public $wpTermsOfService;
 
+	/** @var WebRequest */
+	public $request;
+
 	/**
 	 * @param WebRequest $request
 	 */
@@ -38,6 +42,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 		$this->request = $request;
 	}
 
+	/** @inheritDoc */
 	public function getFieldInfo() {
 		global $wgNewSignupPageToSURL, $wgNewSignupPagePPURL;
 		return [
@@ -62,6 +67,7 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 		];
 	}
 
+	/** @inheritDoc */
 	public function loadFromSubmission( array $data ) {
 		// We always want to use this request, so ignore parent's return value.
 		parent::loadFromSubmission( $data );
