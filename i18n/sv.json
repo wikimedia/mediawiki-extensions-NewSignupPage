@@ -4,6 +4,10 @@
 			"Sabelöga"
 		]
 	},
+	"newsignuppage-desc": "Lägger till nya funktioner i [[Special:CreateAccount|registreringsformuläret]]",
+	"newsignuppage-recruited": "rekryterade [$1 $2]",
 	"newsignuppage-loginform-tos": "Jag är över 13 år och jag har läst, förstått och samtycker till att vara bunden av [$1 användarvillkoren] och [$2 integritetspolicyn]",
-	"newsignuppage-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!"
+	"newsignuppage-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!",
+	"action-bypasstoscheck": "skapa nya konton utan att uttryckligen acceptera webbplatsens användarvillkor",
+	"right-bypasstoscheck": "Skapa nya konton utan att uttryckligen acceptera webbplatsens användarvillkor"
 }
