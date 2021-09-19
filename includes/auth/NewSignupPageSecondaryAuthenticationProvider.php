@@ -133,7 +133,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			}
 
 			// Track registration
-			$dbw = wfGetDB( DB_MASTER );
+			$dbw = wfGetDB( DB_PRIMARY );
 			$dbw->insert(
 				'user_register_track',
 				[
