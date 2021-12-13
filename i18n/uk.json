@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT"
+		]
+	},
+	"newsignuppage-desc": "Додає нові функції до [[Special:CreateAccount|форми реєстрації]]",
+	"newsignuppage-recruited": "завербований [$1 $2]",
+	"action-bypasstoscheck": "створити нові облікові записи без явного прийняття Умов використання сайту",
+	"right-bypasstoscheck": "Створити нові облікові записи без явного прийняття Умов використання сайту"
+}

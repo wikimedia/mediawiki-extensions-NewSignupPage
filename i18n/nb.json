@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Jon Harald Søby"
+		]
 	},
+	"newsignuppage-desc": "Legger til nye funksjoner i [[Special:CreateAccount|registreringsskjemaet]]",
+	"newsignuppage-recruited": "rekrutterte [$1 $2]",
 	"shoutwiki-loginform-tos": "Jeg er over 13 år og jeg har lest, forstått og aksepterer å være bundet av [http://www.shoutwiki.com/wiki/Terms_of_use vilkår for bruk] og [http://www.shoutwiki.com/wiki/Privacy_policy personvernerklæring]",
-	"shoutwiki-must-accept-tos": "Du må godta nettstedets Vilkår for bruk for å kunne opprette en konto!"
+	"shoutwiki-must-accept-tos": "Du må godta nettstedets Vilkår for bruk for å kunne opprette en konto!",
+	"action-bypasstoscheck": "opprette nye kontoer uten å eksplisitt godta bruksvilkårene",
+	"right-bypasstoscheck": "Opprette nye kontoer uten å eksplisitt godta bruksvilkårene"
 }

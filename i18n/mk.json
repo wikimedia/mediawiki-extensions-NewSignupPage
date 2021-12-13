@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"newsignuppage-desc": "Додава нови можности во [[Special:CreateAccount|образецот за зачленување]]",
+	"newsignuppage-recruited": "придобиен [$1 $2]",
+	"action-bypasstoscheck": "создавање на нови сметки без изречно прифаќање на Условите на употреба",
+	"right-bypasstoscheck": "Создавање на нови сметки без изречно прифаќање на Условите на употреба"
+}

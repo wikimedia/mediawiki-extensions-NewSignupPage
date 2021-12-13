@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Gomoko"
+		]
 	},
+	"newsignuppage-desc": "Ajoute de nouvelles fonctionnalités au [[Special:CreateAccount|formulaire d’inscription]]",
+	"newsignuppage-recruited": "[$1 $2] recruté",
 	"shoutwiki-loginform-tos": "Je suis de plus de 13 ans et j'ai lu, compris et accepté d'être lié par les [http://www.shoutwiki.com/wiki/Terms_of_use\">Conditions d'utilisation] et [http://www.shoutwiki.com/wiki/Privacy_policy politique de confidentialité]",
-	"shoutwiki-must-accept-tos": "Vous devez accepter les présentes Conditions de service afin d'être en mesure de créer un compte !"
+	"shoutwiki-must-accept-tos": "Vous devez accepter les présentes Conditions de service afin d'être en mesure de créer un compte !",
+	"action-bypasstoscheck": "créer de nouveaux comptes sans accepter explicitement les conditions d’utilisation du site",
+	"right-bypasstoscheck": "Créer de nouveaux comptes sans accepter explicitement les conditions d’utilisation du site"
 }

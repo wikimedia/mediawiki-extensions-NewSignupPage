@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"newsignuppage-desc": "添加新功能到[[Special:CreateAccount|註冊表格]]",
+	"newsignuppage-recruited": "招募[$1 $2]",
+	"action-bypasstoscheck": "建立新帳號但未明確接受網站的服務條款",
+	"right-bypasstoscheck": "建立新帳號但未明確接受網站的服務條款"
+}

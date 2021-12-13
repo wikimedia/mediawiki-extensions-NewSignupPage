@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Sabelöga"
+		]
 	},
+	"newsignuppage-desc": "Lägger till nya funktioner i [[Special:CreateAccount|registreringsformuläret]]",
+	"newsignuppage-recruited": "rekryterade [$1 $2]",
 	"shoutwiki-loginform-tos": "Jag är över 13 år och jag har läst, förstått och samtycker till att vara bunden av [http://www.shoutwiki.com/wiki/Terms_of_use användarvillkor] och [http://www.shoutwiki.com/wiki/Privacy_policy sekretessvillkor]",
-	"shoutwiki-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!"
+	"shoutwiki-must-accept-tos": "Du måste godkänna webbplats användarvillkoren för att kunna skapa ett konto!",
+	"action-bypasstoscheck": "skapa nya konton utan att uttryckligen acceptera webbplatsens användarvillkor",
+	"right-bypasstoscheck": "Skapa nya konton utan att uttryckligen acceptera webbplatsens användarvillkor"
 }

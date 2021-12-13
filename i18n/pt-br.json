@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Luk3"
+		]
+	},
+	"newsignuppage-desc": "Adiciona novos recursos ao [[Special:CreateAccount|formulário de inscrição]]",
+	"newsignuppage-recruited": "recrutou [$1 $2]",
+	"action-bypasstoscheck": "criar novas contas sem aceitar explicitamente os Termos de Serviço do site",
+	"right-bypasstoscheck": "Criar novas contas sem aceitar explicitamente os Termos de Serviço do site"
+}

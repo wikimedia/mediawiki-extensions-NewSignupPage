@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"newsignuppage-desc": "[[Special:CreateAccount|Kayıt formuna]] yeni özellikler ekler",
+	"newsignuppage-recruited": "[$1 $2] işe alındı",
+	"action-bypasstoscheck": "sitenin Hizmet Şartlarını açıkça kabul etmeden yeni hesaplar oluştur",
+	"right-bypasstoscheck": "Sitenin Hizmet Şartlarını açıkça kabul etmeden yeni hesaplar oluştur"
+}
