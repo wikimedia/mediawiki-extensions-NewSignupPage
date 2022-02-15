@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"newsignuppage-desc": "Ajoute de nouvelles fonctionnalités au [[Special:CreateAccount|formulaire d’inscription]]",
 	"newsignuppage-recruited": "[$1 $2] recruté",
-	"newsignuppage-loginform-tos": "Je suis de plus de 13 ans et j'ai lu, compris et accepté d'être lié par les [$1 Conditions d'utilisation] et [$2 politique de confidentialité]",
-	"newsignuppage-must-accept-tos": "Vous devez accepter les présentes Conditions de service afin d'être en mesure de créer un compte !",
+	"newsignuppage-loginform-tos": "J’ai plus de 13 ans et j’ai lu, compris et accepté les [$1 Conditions d’utilisation] et la [$2 politique de confidentialité], que je m’engage à suivre et respecter.",
+	"newsignuppage-must-accept-tos": "Vous devez accepter les présentes Conditions d’utilisation afin d’être en mesure de créer un compte !",
 	"action-bypasstoscheck": "créer de nouveaux comptes sans accepter explicitement les conditions d’utilisation du site",
 	"right-bypasstoscheck": "Créer de nouveaux comptes sans accepter explicitement les conditions d’utilisation du site"
 }
