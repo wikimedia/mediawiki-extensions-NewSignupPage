@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"newsignuppage-desc": "Додає нові функції до [[Special:CreateAccount|форми реєстрації]]",
