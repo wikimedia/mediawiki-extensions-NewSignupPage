@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari"
+		]
+	},
+	"newsignuppage-desc": "[[Special:CreateAccount|నమోదు ఫారానికి]] ఒక కొత్త అంశాన్ని చేరుస్తుంది",
+	"newsignuppage-recruited": "[$1 $2] ను రిక్రూటు చేసుకున్నారు",
+	"action-bypasstoscheck": "సఈటు సేవా నిబంధనలను విస్పష్టంగా అంగీకరించకుండా కొత్త ఖాతాలను సృష్టించే",
+	"right-bypasstoscheck": "సఈటు సేవా నిబంధనలను విస్పష్టంగా అంగీకరించకుండా కొత్త ఖాతాలను సృష్టించడం"
+}
