@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"StarrySky"
+		]
+	},
+	"newsignuppage-desc": "向 [[Special:CreateAccount|注册表单]] 添加新功能",
+	"newsignuppage-recruited": "招募 [$1 $2]",
+	"action-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新帐户",
+	"right-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新帐户"
+}
