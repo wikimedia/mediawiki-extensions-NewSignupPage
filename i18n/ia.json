@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"newsignuppage-desc": "Adde nove functiones al [[Special:CreateAccount|formulario de creation de conto]]",
+	"newsignuppage-recruited": "recrutava [$1 $2]",
+	"action-bypasstoscheck": "crear nove contos sin acceptar explicitemente le Conditiones de servicio del sito",
+	"right-bypasstoscheck": "Crear nove contos sin acceptar explicitemente le Conditiones de servicio del sito"
+}
