@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"newsignuppage-desc": "Adde nove functiones al [[Special:CreateAccount|formulario de creation de conto]]",
+	"newsignuppage-recruited": "recrutava [$1 $2]",
+	"newsignuppage-loginform-tos": "Io ha plus de 13 annos e io ha legite, comprendite e acceptate le [$1 Conditiones de servicio] e le [$2 Politica de confidentialitate]",
+	"newsignuppage-must-accept-tos": "Tu debe acceptar le Conditiones de servicio del sito pro poter crear un conto!",
+	"action-bypasstoscheck": "crear nove contos sin acceptar explicitemente le Conditiones de servicio del sito",
+	"right-bypasstoscheck": "Crear nove contos sin acceptar explicitemente le Conditiones de servicio del sito"
+}
