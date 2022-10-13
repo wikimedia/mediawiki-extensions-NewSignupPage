@@ -4,6 +4,10 @@
 			"Hamilton Abreu"
 		]
 	},
+	"newsignuppage-desc": "Acrescenta funcionalidades novas ao [[Special:CreateAccount|formulário de inscrição]]",
+	"newsignuppage-recruited": "recrutou [$1 $2]",
 	"newsignuppage-loginform-tos": "Tenho mais de 13 anos de idade e li, entendi e concordo respeitar as [$1 condições de utilização] e as [$2 normas de privacidade]",
-	"newsignuppage-must-accept-tos": "Tem de aceitar as condições de utilização do site para poder criar uma conta!"
+	"newsignuppage-must-accept-tos": "Tem de aceitar as condições de utilização do site para poder criar uma conta!",
+	"action-bypasstoscheck": "criar novas contas sem aceitar explicitamente as condições de serviço do ''site''",
+	"right-bypasstoscheck": "Criar novas contas sem aceitar explicitamente as condições de serviço do ''site''"
 }
