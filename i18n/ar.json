@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"newsignuppage-desc": "يضيف ميزات جديدة إلى [[Special:CreateAccount|نموذج الاشتراك]]",
+	"newsignuppage-recruited": "تم تجنيدهم [ $1 $2 ]",
+	"action-bypasstoscheck": "إنشاء حسابات جديدة دون الموافقة الصريحة على شروط الخدمة الخاصة بالموقع",
+	"right-bypasstoscheck": "قم بإنشاء حسابات جديدة دون الموافقة الصريحة على شروط الخدمة الخاصة بالموقع"
+}
