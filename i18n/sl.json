@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"newsignuppage-desc": "Doda nove možnosti v [[Special:CreateAccount|registracijski obrazec]]",
+	"newsignuppage-recruited": "pridobljen [ $1 $2 ]",
+	"newsignuppage-loginform-tos": "Star_a sem več kot 13 let in sem prebral_a [$1 Pogoje uporabe] in [$2 Pravilnik o zasebnosti], jih razumel_a in se strinjam, da me zavezujejo.",
+	"newsignuppage-must-accept-tos": "Če želite ustvariti račun, morate sprejeti Pogoje uporabe spletnega mesta!",
+	"action-bypasstoscheck": "ustvarjanje novih računov, ne da bi izrecno sprejeli Pogoje uporabe spletnega mesta",
+	"right-bypasstoscheck": "Ustvarjanje novih računov, ne da bi izrecno sprejel Pogoje uporabe spletnega mesta"
+}
