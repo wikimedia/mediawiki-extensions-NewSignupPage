@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"newsignuppage-desc": "Doda nove možnosti v [[Special:CreateAccount|registracijski obrazec]]",
+	"newsignuppage-recruited": "pridobljen [ $1 $2 ]",
+	"action-bypasstoscheck": "ustvarjanje novih računov, ne da bi izrecno sprejeli Pogoje uporabe spletnega mesta",
+	"right-bypasstoscheck": "Ustvarjanje novih računov, ne da bi izrecno sprejel Pogoje uporabe spletnega mesta"
+}
