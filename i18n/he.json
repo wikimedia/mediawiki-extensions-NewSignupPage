@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"newsignuppage-desc": "הוספת תכונות חדשות ל[[Special:CreateAccount|טופס ההרשמה]]",
+	"newsignuppage-recruited": "[$1 $2] {{GENDER:$2|גויס|גויסה}}",
+	"newsignuppage-loginform-tos": "אני מעל גיל 13 וקראתי והבנתי את [$1 התנאים וההגבלות] ואת [$2 מדיניות הפרטיות] והסכמתי לפעול בכפיפות אליהם",
+	"newsignuppage-must-accept-tos": "יש לאשר את תנאי השימוש של האתר כדי ליצור חשבון!",
+	"action-bypasstoscheck": "ליצור חשבונות חדשים מבלי לקבל במפורש את תנאי השירות של האתר",
+	"right-bypasstoscheck": "יצירת חשבונות חדשים מבלי לקבל במפורש את תנאי השירות של האתר"
+}
