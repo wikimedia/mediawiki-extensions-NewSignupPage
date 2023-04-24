@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"newsignuppage-desc": "Prideda naujų funkcijų [[Special:CreateAccount|registracijos formoje]]",
+	"newsignuppage-recruited": "pakviestas [$1 $2]",
+	"action-bypasstoscheck": "kurti naujas paskyras, aiškiai nesutinkant su svetainės paslaugų teikimo sąlygomis",
+	"right-bypasstoscheck": "Kurti naujas paskyras, aiškiai nesutinkant su svetainės paslaugų teikimo sąlygomis"
+}
