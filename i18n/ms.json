@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"newsignuppage-desc": "Menambah ciri baharu pada [[Special:CreateAccount|borang pendaftaran]]",
+	"newsignuppage-recruited": "[$1 $2] yang direkrut",
+	"action-bypasstoscheck": "buka akaun baharu tanpa menerima secara jelas Syarat Perkhidmatan tapak",
+	"right-bypasstoscheck": "Buat akaun baharu tanpa menerima secara jelas Syarat Perkhidmatan tapak"
+}
