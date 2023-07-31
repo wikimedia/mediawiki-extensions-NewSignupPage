@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diskdance",
 			"StarrySky"
 		]
 	},
@@ -8,6 +9,6 @@
 	"newsignuppage-recruited": "招募 [$1 $2]",
 	"newsignuppage-loginform-tos": "我已年满 13 岁，并且我已阅读、理解并同意受 [$1 服务条款] 和 [$2 隐私政策]",
 	"newsignuppage-must-accept-tos": "您一定要先接受使用条款才可以创建新的账户。",
-	"action-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新帐户",
-	"right-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新帐户"
+	"action-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新账号",
+	"right-bypasstoscheck": "在未明确接受网站服务条款的情况下创建新账号"
 }
