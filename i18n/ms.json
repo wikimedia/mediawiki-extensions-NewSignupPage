@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"newsignuppage-desc": "Menambah ciri baharu pada [[Special:CreateAccount|borang pendaftaran]]",
+	"newsignuppage-recruited": "[$1 $2] yang direkrut",
+	"newsignuppage-loginform-tos": "Saya berumur lebih dari 13 tahun dan saya telah membaca, memahami dan bersetuju untuk terikat dengan [$1 Syarat Perkhidmatan] dan [$2 Dasar Privasi]",
+	"newsignuppage-must-accept-tos": "Anda mesti menerima Syarat Perkhidmatan tapak untuk membuka akaun!",
+	"action-bypasstoscheck": "buka akaun baharu tanpa menerima secara jelas Syarat Perkhidmatan tapak",
+	"right-bypasstoscheck": "Buat akaun baharu tanpa menerima secara jelas Syarat Perkhidmatan tapak"
+}
