@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Faalagorn"
+		]
+	},
+	"newsignuppage-desc": "Dodaje nowe funkcje do [[Special:CreateAccount|formularza rejestracji]].",
+	"newsignuppage-recruited": "rekrutacja [$1 $2]",
+	"newsignuppage-loginform-tos": "Mam ukończone 13 lat, przeczytałem/am, zrozumiałem/am i wyrażam zgodę na przestrzeganie [$1 warunków świadczenia usługi] i [$2 polityki prywatności]",
+	"newsignuppage-must-accept-tos": "Musisz zaakceptować warunków świadczenia usługi strony, aby móc utworzyć konto!",
+	"action-bypasstoscheck": "tworzenie nowych kont bez wyraźnego zaakceptowania warunków świadczenia usługi strony",
+	"right-bypasstoscheck": "Tworzenie nowych kont bez wyraźnego zaakceptowania warunków świadczenia usługi strony"
+}
