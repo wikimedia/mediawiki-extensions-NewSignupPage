@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Faalagorn"
+		]
+	},
+	"newsignuppage-desc": "Dodaje nowe funkcje do [[Special:CreateAccount|formularza rejestracji]].",
+	"newsignuppage-recruited": "rekrutacja [$1 $2]",
+	"action-bypasstoscheck": "tworzenie nowych kont bez wyraźnego zaakceptowania warunków świadczenia usługi strony",
+	"right-bypasstoscheck": "Tworzenie nowych kont bez wyraźnego zaakceptowania warunków świadczenia usługi strony"
+}
