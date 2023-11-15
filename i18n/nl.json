@@ -3,11 +3,14 @@
 		"authors": [
 			"Aranka",
 			"Dutchy45",
-			"Mitchel Corstjens"
+			"Mitchel Corstjens",
+			"McDutchie"
 		]
 	},
+	"newsignuppage-desc": "Voegt nieuwe functies toe aan het [[Special:CreateAccount|inschrijvingsformulier]]",
 	"newsignuppage-recruited": "rekruteerde [$1 $2]",
 	"newsignuppage-loginform-tos": "Ik ben ouder dan 13 jaar en heb de [$1 Gebruiksovereenkomst] en het [$2 Privacybeleid] gelezen en begrepen, en ik ga hier mee akkoord",
 	"newsignuppage-must-accept-tos": "U moet akkoord gaan met de gebruikersvoorwaarden van de site om een account aan te kunnen maken!",
+	"action-bypasstoscheck": "nieuwe accounts aan te maken zonder uitdrukkelijk de gebruiksvoorwaarden van de site te accepteren",
 	"right-bypasstoscheck": "Creëer een nieuwe account zonder akkoord te gaan met de gebruiksovereenkomst"
 }
