@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"LaMagiaaa",
-			"Salvare"
+			"Salvare",
+			"Shirayuki"
 		]
 	},
 	"newsignuppage-loginform-tos": "私は13歳以上であり、[$1 利用規約]と[$2 プライバシーポリシー]を読み、理解し、それに同意することを保証します",
-	"right-bypasstoscheck": "サイトの利用規約に明示的に同意せずに新しいアカウントを作成する"
+	"action-bypasstoscheck": "サイトの利用規約への明示的な同意がないアカウントの新規作成",
+	"right-bypasstoscheck": "サイトの利用規約に明示的に同意せずにアカウントを新規作成"
 }
