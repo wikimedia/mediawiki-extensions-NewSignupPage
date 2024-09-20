@@ -39,7 +39,7 @@ class NewSignupPage {
 
 		$db = $updater->getDB();
 
-		if ( !$db->tableExists( 'user_register_track' ) && !$wgRegisterTrack ) {
+		if ( !$db->tableExists( 'user_register_track', __METHOD__ ) && !$wgRegisterTrack ) {
 			// Table doesn't exist and shouldn't either -> bail out
 			return true;
 		}
