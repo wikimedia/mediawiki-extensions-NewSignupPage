@@ -133,7 +133,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 			}
 
 			// Track registration
-			$dbw = wfGetDB( DB_PRIMARY );
+			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 			$dbw->insert(
 				'user_register_track',
 				[
