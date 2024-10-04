@@ -31,7 +31,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
 	public function testForAccountCreation( $user, $creator, array $reqs ) {
 		$req = AuthenticationRequest::getRequestByClass( $reqs, NewSignupPageAuthenticationRequest::class );
 		if (
-			$req && $req->wpTermsOfService ||
+			( $req && $req->wpTermsOfService ) ||
 			$creator->isAllowed( 'bypasstoscheck' )
 		) {
 			return StatusValue::newGood();
