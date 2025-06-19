@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Mukeber"
+		]
 	},
-	"newsignuppage-loginform-tos": "Ich bin über 13 Jahre alt und ich habe gelesen, verstanden und stimmen zu, die [$1 Nutzungsbedingungen] und [$2 Datenschutzbestimmungen]",
-	"newsignuppage-must-accept-tos": "Sie müssen akzeptieren, die Website-Nutzungsbedingungen, um in der Lage, ein Konto erstellen!"
+	"newsignuppage-loginform-tos": "Ich bin über 13 Jahre alt und habe die [$1 Nutzungsbedingungen] und [ $2 Datenschutzrichtlinie] gelesen, verstanden und stimme ihnen zu.",
+	"newsignuppage-must-accept-tos": "Du musst die Nutzungsbedingungen akzeptieren, bevor du ein Benutzerkonto erstellen kannst!"
 }
