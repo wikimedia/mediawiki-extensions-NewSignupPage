@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"newsignuppage-desc": "Engade novas funcionalidades ao [[Special:CreateAccount|formulario de rexistro]]",
+	"newsignuppage-recruited": "recrutou a [$1 $2]",
+	"newsignuppage-loginform-tos": "Teño máis de 13 anos e lin, comprendín e acepto as [$1 condicións de servizo] e as [$2 normas de protección de datos]",
+	"newsignuppage-must-accept-tos": "Debes aceptar as condicións de servizo do sitio para poder crear unha conta!",
+	"action-bypasstoscheck": "crear contas novas sen aceptar explicitamente as condicións de servizo do sitio",
+	"right-bypasstoscheck": "Crear contas novas sen aceptar explicitamente as condicións de servizo do sitio"
+}
