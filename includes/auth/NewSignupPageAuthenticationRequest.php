@@ -32,14 +32,12 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 	 */
 	public $wpTermsOfService;
 
-	/** @var WebRequest */
-	public $request;
-
 	/**
 	 * @param WebRequest $request
 	 */
 	public function __construct( $request ) {
-		$this->request = $request;
+		$this->from = $request->getInt( 'from' );
+		$this->referral = $request->getVal( 'referral' );
 	}
 
 	/** @inheritDoc */
@@ -49,12 +47,12 @@ class NewSignupPageAuthenticationRequest extends AuthenticationRequest {
 			'from' => [
 				'type' => 'hidden',
 				'optional' => true,
-				'value' => $this->request->getInt( 'from' )
+				'value' => $this->from
 			],
 			'referral' => [
 				'type' => 'hidden',
 				'optional' => true,
-				'value' => $this->request->getVal( 'referral' )
+				'value' => $this->referral
 			],
 			'wpTermsOfService' => [
 				'type' => 'checkbox',
