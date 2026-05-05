@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
-	"newsignuppage-loginform-tos": "저의 나이는 13살을 초과하며 [$1 서비스 조항]과 [$2 개인 정보 보호 정책]을 읽었고 이해했으며 동의합니다"
+	"newsignuppage-desc": "[[Special:CreateAccount|회원가입 양식]]에 새로운 기능을 추가합니다",
+	"newsignuppage-recruited": "영입됨 [ $1 $2 ]",
+	"newsignuppage-loginform-tos": "저의 나이는 13살을 초과하며 [$1 서비스 조항]과 [$2 개인 정보 보호 정책]을 읽었고 이해했으며 동의합니다",
+	"newsignuppage-must-accept-tos": "계정을 만들려면 사이트의 이용 약관을 수락해야 합니다!",
+	"action-bypasstoscheck": "사이트 이용약관을 명시적으로 수락하지 않고 새 계정을 생성할",
+	"right-bypasstoscheck": "사이트 이용약관을 명시적으로 수락하지 않고 새 계정을 생성"
 }
