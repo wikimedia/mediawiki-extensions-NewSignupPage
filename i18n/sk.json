@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"newsignuppage-desc": "Pridáva nové funkcie do [[Special:CreateAccount|registračného formulára]]",
+	"newsignuppage-recruited": "získal používateľa [$1 $2]",
+	"newsignuppage-loginform-tos": "Mám viac ako 13 rokov a prečítal som si [$1 Podmienky používania] a [$2 Zásady ochrany súkromia], rozumiem im a súhlasím s tým, že sú pre mňa záväzné",
+	"newsignuppage-must-accept-tos": "Na vytvorenie účtu musíte prijať Podmienky používania tejto stránky!",
+	"action-bypasstoscheck": "vytvárať nové účty bez výslovného prijatia Podmienok používania stránky",
+	"right-bypasstoscheck": "Vytvárať nové účty bez výslovného prijatia Podmienok používania stránky"
+}
